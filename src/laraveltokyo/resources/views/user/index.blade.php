@@ -22,6 +22,8 @@
         <td><a href="user/{{$user->id}}">詳細</a></td>
         <td>編集</td>
         <td>削除</td>
+
+        
     </tr>
     @endforeach
 
