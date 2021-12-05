@@ -9,12 +9,14 @@ class User extends Model
     //テーブル名
     protected $table = 'users';
 
+    protected $guarded = ['id'];
+
     //可変項目
     protected $fillable =
     [
      'user_name',
      'email',
-     'status_num',
-     'created_at'
+     'password',
+     'status_num'
     ];
 }
