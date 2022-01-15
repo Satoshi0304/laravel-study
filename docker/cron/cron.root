@@ -1,0 +1,2 @@
+* * * * * echo 'test' >> /var/log/test.log
+* * * * * echo '=== environment variables ===' && env

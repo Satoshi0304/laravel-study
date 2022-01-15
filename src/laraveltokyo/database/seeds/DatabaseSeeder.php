@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
         /** 使用したいSeederの追加 */
         // $this->call(UserSeeder::class);
         $this->call(UsersTableSeeder::class);
-        $this->call(OrderSeeder::class);
+        $this->call(StockSeeder::class);
 
     }
 }
