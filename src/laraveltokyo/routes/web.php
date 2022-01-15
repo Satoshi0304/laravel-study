@@ -50,6 +50,7 @@ Route::get('stock/edit/{id}', 'StockController@edit')->name('stockEdit');
 Route::get('stock/update', 'StockController@update')->name('stockUpdate');
 
 Route::delete('stock/destroy/{id}', 'StockController@destroy')->name('stockDestroy');
+ 
 
 
 // Auth::routes();
